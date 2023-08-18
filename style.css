@@ -47,6 +47,17 @@ article a:hover {
     color: #0085a1;
 }
 
+li:before {
+    content: "NEW "; /* Добавляем перед элементом списка символ в юникоде */
+    color: red;
+   }
+
+
+   p:nth-child(2n) {
+    color: blue; /* Цвет фона */
+   } 
+
+
 /*h:nth-child(2n) {
     background: #FFFF00;
     }*/
